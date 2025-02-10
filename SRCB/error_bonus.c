@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   error.c                                            :+:      :+:    :+:   */
+/*   error_bonus.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ael-majd <ael-majd@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/08 16:36:28 by ael-majd          #+#    #+#             */
-/*   Updated: 2025/02/10 09:53:54 by ael-majd         ###   ########.fr       */
+/*   Updated: 2025/02/10 13:11:55 by ael-majd         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "push_swap_bonus.h"
 
 void	error(void)
 {
@@ -38,6 +38,7 @@ void	free_stack(t_stack **stack)
 		free(*stack);
 		*stack = tmp;
 	}
+	*stack = NULL;
 }
 
 void	stack_error(t_stack **a, t_stack **b)
