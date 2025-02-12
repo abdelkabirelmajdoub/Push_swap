@@ -97,6 +97,8 @@ long	ft_atoi(char *str)
 	while ((str[i] >= '0' && str[i] <= '9') && str[i])
 	{
 		r = r * 10 + (str[i] - '0');
+		if ((r * s) > INT_MAX || (r * s) < INT_MIN)
+			return ((long)INT_MAX + 1);
 		i++;
 	}
 	return (r * s);
