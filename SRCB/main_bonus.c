@@ -114,8 +114,8 @@ int	main(int ac, char **av)
 
 	a = NULL;
 	b = NULL;
-	if (!av[1] || (ac == 2 && !av[1][0]))
-		error();
+	if (ac == 1)
+		return (0);
 	if (ac >= 2)
 	{
 		stack_init(&a, av);
