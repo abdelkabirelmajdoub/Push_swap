@@ -73,5 +73,5 @@ The project is graded based on:
 - Compliance with 42's project requirements.
 
 ## Author
-- **Your Name** - [GitHub Profile](https://github.com/abdelkabirelmajdoub)
+-  [GitHub Profile](https://github.com/abdelkabirelmajdoub)
 
